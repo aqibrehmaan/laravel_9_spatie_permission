@@ -42,4 +42,11 @@ class RoleController extends Controller
         return to_route('admin.roles.index')->with('message', 'Role Updated successfully.');
     }
 
+    public function destroy(Role $role)
+    {
+        $role->delete();
+
+        return back()->with('message', 'Role deleted.');
+    }
+
 }
