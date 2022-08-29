@@ -32,7 +32,7 @@
                     </div>
 
                 </div>
-                {{-- <div class="mt-6 p-2 bg-slate-100">
+                <div class="mt-6 p-2 bg-slate-100">
                     <h2 class="text-2xl font-semibold">Roles</h2>
                     <div class="flex space-x-2 mt-4 p-2">
                         @if ($permission->roles)
@@ -68,7 +68,7 @@
                             class="px-4 py-2 bg-green-500 hover:bg-green-700 rounded-md">Assign</button>
                     </div>
                     </form>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>
